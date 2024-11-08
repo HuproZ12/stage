@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI';
+    background-color: rgba(73, 92, 84, 0.856);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.conteneur {
+    background-color: rgb(28, 29, 29);
+    height: 50%;
+    width: 18%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:1px;
+}
+
+.clavier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size:xx-large;
+}
+
+.gris:active {
+    box-shadow: inset 0 0 0 1px rgb(139, 139, 139);
+}
+
+.orange:active {
+    box-shadow: inset 0 0 0 1px rgb(184, 101, 6);
+}
+
+.gris {
+    color: black;
+    background-color: rgb(196, 196, 196);
+}
+
+.griser {
+    color: black;
+    background-color: rgb(163, 163, 163);
+}
+
+.orange {
+    color: white;
+    background-color: rgb(248, 134, 3);
+}
+
+.cero {
+    grid-column: span 2;
+    justify-content: flex-start;
+    padding-left: 22%;
+}
+
+.resultat {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    grid-column: span 4;
+    margin: 0px;
+    padding-right: 10%;
+    font-size:xx-large;
+    min-height: 43px;
+}
