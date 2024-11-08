@@ -103,3 +103,9 @@ body {
     background-color: #333333;
     border-color: #333333;
 }
+
+#selected-date {
+    font-size: 1.2rem;
+    color: #fc466b;
+    margin-bottom: 1rem;
+}
