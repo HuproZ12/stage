@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const calendar = document.getElementById('calendar');
     const taskWidget = document.getElementById('task-widget');
+    const backButton = document.getElementById('back-button');
 
     const daysOfWeek = ['Lun', 'Mar', 'Mer', 'Jeu', 'Ven', 'Sam', 'Dim'];
     const today = new Date();
@@ -33,6 +34,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const selectedDate = event.target.dataset.date;
             updateTasks(selectedDate);
         }
+    });
+
+    backButton.addEventListener('click', () => {
+        window.location.href = '../index.html';
     });
 
     function updateTasks(date) {
