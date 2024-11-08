@@ -1,11 +1,13 @@
 body {
     font-family: 'Segoe UI';
-    background-color: rgba(73, 92, 84, 0.856);
+    background: linear-gradient(315deg, #3f5efb, #fc466b);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    flex-direction: column;
 }
+
 .conteneur {
     background-color: rgb(28, 29, 29);
     height: 50%;
@@ -64,4 +66,28 @@ body {
     padding-right: 10%;
     font-size:xx-large;
     min-height: 43px;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#back-button{
+    background-color: #333333;
+    border-color: #333333;
 }

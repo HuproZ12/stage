@@ -45,7 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
             '4': `## Matin : 9h-12h30
 - Réflexion projet
 
-## Après-midi : 13h30-17h`,
+## Après-midi : 13h30-17h
+- Révisions sur la stylisation manuelle, avec un petit projet de [calculatrice](../calcul/index.html)`,
+            '5': `## Matin : 9h-12h30
+- Ajout de la logique sur le projet de la [calculatrice](../calcul/index.html)
+
+## Après-midi : 13h30-17h
+- Apprentissage Blender/GIMP, avec pour objectif de se familiariser avec la modélisation/manipulation d'image.Pour l'instant dans un objectif de modding Minecraft`,
         };
 
         const taskMarkdown = tasks[date] || `## Aucune tâche`;
