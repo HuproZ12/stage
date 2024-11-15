@@ -74,14 +74,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Après-midi : 13h30-17h
 - [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi`,
+            '12': `## Matin : 9h-12h30
+- Travail sur le projet de [mod Minecraft](../laser/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le projet de [mod Minecraft](../laser/index.html)`,
+            '13': `## Matin : 9h-12h30
+- Travail sur le projet de [mod Minecraft](../laser/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le projet de [mod Minecraft](../laser/index.html)`,
+            '14': `## Matin : 9h-12h30
+- Travail sur le projet de [mod Minecraft](../laser/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le projet de [mod Minecraft](../laser/index.html)`,
+            '15': `## Matin : 9h-12h30
+- [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi
+
+## Après-midi : 13h30-17h
+- [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi`,
         };
 
         const taskMarkdown = tasks[date] || `## Aucune tâche`;
 
-        // Conversion du Markdown en HTML
         const taskHTML = marked(taskMarkdown);
 
-        // Mise à jour du widget avec le HTML généré
         taskContent.innerHTML = taskHTML;
         selectedDateElement.textContent = `${date} novembre 2024`;
         taskWidget.classList.add('fade-in');
