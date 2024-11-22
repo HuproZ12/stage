@@ -94,6 +94,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Après-midi : 13h30-17h
 - [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi`,
+            '18': `## Matin : 9h-12h30
+- Travail sur le [jeu des pairs](../pairs/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le [jeu des pairs](../pairs/index.html)`,
+            '19': `## Matin : 9h-12h30
+- Travail sur le [jeu des pairs](../pairs/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le [jeu des pairs](../pairs/index.html)`,
+            '20': `## Matin : 9h-12h30
+- Travail sur le [Snake](../snake/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le [Snake](../snake/index.html)`,
+            '21': `## Matin : 9h-12h30
+- Travail sur le [Snake](../snake/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le [Snake](../snake/index.html)`,
+            '22': `## Matin : 9h-12h30
+- [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi
+
+## Après-midi : 13h30-17h
+- [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi`,
         };
 
         const taskMarkdown = tasks[date] || `## Aucune tâche`;

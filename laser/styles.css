@@ -87,6 +87,11 @@ body {
     border-color: #333333;
 }
 
+#back-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 /* Styles pour les images dans le widget */
 .task-widget img {
     max-width: 100%;
