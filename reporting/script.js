@@ -119,6 +119,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Après-midi : 13h30-17h
 - [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi`,
+            '25': `## Matin : 9h-12h30
+- Travail sur le [2048](../deuxmil/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le [2048](../deuxmil/index.html)`,
+            '26': `## Matin : 9h-12h30
+- Travail sur le [2048](../deuxmil/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le [démineur](../demineur/index.html)`,
+            '27': `## Matin : 9h-12h30
+- Travail sur le [démineur](../demineur/index.html)
+
+## Après-midi : 13h30-17h
+- Travail sur le [démineur](../demineur/index.html)`,
+            '28': `## Matin : 9h-12h30
+- Travail sur le [démineur](../demineur/index.html)
+
+## Après-midi : 13h30-17h
+- [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi`,
+            '29': `## Matin : 9h-12h30
+- [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi
+
+## Après-midi : 13h30-17h
+- [Recherche](https://1drv.ms/x/c/b2c781cd25a62a9c/Ef6sVK0IPWFJnIgmviU7zJ0BFBIcSfTW-QedKNZyXlSzCg?e=Ihho6E) d'emploi`,
         };
 
         const taskMarkdown = tasks[date] || `## Aucune tâche`;

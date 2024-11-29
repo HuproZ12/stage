@@ -1,0 +1,137 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(315deg, #3f5efb, #fc466b);
+    font-family: Arial, sans-serif;
+}
+
+.game-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 440px; /* Ajustez cette valeur selon la largeur de votre grille */
+}
+
+.score-label {
+    font-size: 24px;
+    margin-right: 10px;
+    color: white;
+}
+
+.score-value {
+    font-size: 24px;
+    color: white;
+    margin-right: auto; /* Pousse le bouton à droite */
+}
+
+#reset-button {
+    background-color: #333333;
+    border-color: #333333;
+    outline: none;
+    box-shadow: none;
+}
+
+#reset-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    background-color: #bbada0;
+    padding: 20px;
+    border: 10px solid #bbada0;
+    border-radius: 10px;
+}
+
+.grid-cell {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc0b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.grid-cell.empty {
+    background-color: #cdc1b4;
+}
+
+.grid-cell.value-2 {
+    background-color: #eee4da;
+}
+
+.grid-cell.value-4 {
+    background-color: #ede0c8;
+}
+
+.grid-cell.value-8 {
+    background-color: #f2b179;
+}
+
+.grid-cell.value-16 {
+    background-color: #f59563;
+}
+
+.grid-cell.value-32 {
+    background-color: #f67c5f;
+}
+
+.grid-cell.value-64 {
+    background-color: #f65e3b;
+}
+
+.grid-cell.value-128 {
+    background-color: #edcf72;
+}
+
+.grid-cell.value-256 {
+    background-color: #edcc61;
+}
+
+.grid-cell.value-512 {
+    background-color: #edc850;
+}
+
+.grid-cell.value-1024 {
+    background-color: #edc53f;
+}
+
+.grid-cell.value-2048 {
+    background-color: #edc22e;
+}
+
+#back-button {
+    background-color: #333333;
+    border-color: #333333;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    box-shadow: none;
+}
+
+#back-button:focus {
+    outline: none;
+    box-shadow: none;
+}
